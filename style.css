@@ -44,9 +44,50 @@ nav {
     background-color: #28a75a;
 }
 
+/* Ready Section */
+.main {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    gap: 60px;
+}
+
+.h2 {
+    font-size: 48px;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 18px;
+    color: #28a75a;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.pa {
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.f1 {
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+}
 
 
-
+/* Footer Section */
 .ftr-sec {
     padding-top: 120px;
 
