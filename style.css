@@ -16,8 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-cen {
@@ -42,6 +42,60 @@ nav {
 
 .btn1:hover {
     background-color: #28a75a;
+}
+
+/* Hero Section */
+hero {
+    background-image: url(./images/cover.png);
+    display: flex;
+
+    width: 100%;
+    height: 900px;
+
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.middle h1 {
+    font-size: 64px;
+    color: white;
+    width: 770px;
+}
+
+.par {
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+    margin-top: 20px;
+    max-width: 1360px;
+    height: 60px;
+}
+
+span {
+    color: #30B868;
+}
+
+.btn-div {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: white;
+    padding: 10px 14px 10px 14px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 /* Ready Section */
