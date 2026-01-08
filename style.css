@@ -86,11 +86,48 @@ nav {
     padding-top: 10px;
 }
 
+/* Ready to think */
+.redy {
+    width: 85%;
+    max-width: 1360px;
+    height: 380px;
+    background-color: #F7F6F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.redy h2 {
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.redy p {
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.redy button {
+    background-color: #30B868;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
 
 /* Footer Section */
 .ftr-sec {
     padding-top: 120px;
-
     width: 100%;
     height: 360px;
     background-color: #001931;
