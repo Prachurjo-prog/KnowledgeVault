@@ -245,6 +245,9 @@ span {
     cursor: pointer;
     margin-bottom: 15px;
 }
+.redy button:hover {
+    background-color: #28a75a;
+}
 
 /* Footer Section */
 .ftr-sec {
